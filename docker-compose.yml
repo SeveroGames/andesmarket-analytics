@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fastapi_app:
+    build: .
+    container_name: andesmarket_api
+    ports:
+      - "8000:8000"
+    # Le pasamos nuestro archivo .env para que la API tenga las credenciales de la BD
+    env_file:
+      - .env
+    restart: unless-stopped

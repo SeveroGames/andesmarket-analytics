@@ -1,0 +1,21 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos (¡NUNCA subir bases de datos completas o CSVs gigantes a GitHub!)
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+
+# Variables de entorno y contraseñas
+.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
