@@ -115,6 +115,16 @@ docker-compose up -d --build
 
 Nota: Si estás ejecutando Docker localmente, asegúrate de cambiar DB_HOST=host.docker.internal en tu archivo .env para que el contenedor pueda leer tu base de datos de PostgreSQL.
 
+Capturas de powerBI:
+
+<img width="872" height="640" alt="image" src="https://github.com/user-attachments/assets/911763ba-128b-42d8-83c1-6ae5510e9fea" />
+
+<img width="1177" height="545" alt="image" src="https://github.com/user-attachments/assets/26737d2c-f0a4-485e-ab5d-efe17310509c" />
+
+<img width="1205" height="582" alt="image" src="https://github.com/user-attachments/assets/66d4af40-ef46-4f61-95b8-60f039229cfe" />
+
+
+
 
 👨‍💻 Autor
 Andres Stevn Chichande
