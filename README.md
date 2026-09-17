@@ -116,6 +116,16 @@ docker-compose up -d --build
 Nota: Si estás ejecutando Docker localmente, asegúrate de cambiar DB_HOST=host.docker.internal en tu archivo .env para que el contenedor pueda leer tu base de datos de PostgreSQL.
 
 
+5. Alternativa Rápida (Producción en la Nube con Docker Hub)
+
+Si no deseas construir la imagen y la base de datos desde cero, puedes descargar la versión oficial de producción empaquetada directamente desde Docker Hub ejecutando:
+Bash
+
+docker pull ubuntun25/andesmarket-api:v1.0
+docker run -p 8000:8000 ubuntun25/andesmarket-api:v1.0
+
+
+
 👨‍💻 Autor
 Andres Stevn Chichande
 
